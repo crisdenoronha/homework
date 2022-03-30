@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/*------------ General ------------*/  
+.hidden {
+    display: none;
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+
+h1 {
+    margin: auto;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18pt;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16pt;
+    text-transform: uppercase;
+    line-height: 20pt;
+
+}
+
+a {
+    margin: auto;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 16pt;
+
+}
+
+
+/*------------ Nav Section ------------*/ 
+#navMobile {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 428px;
+}
+
+#hamburger {width: 24px;}
+
+#arrow {width: 15px;}
+
+#logo  {width: 96px;}
+
+#number  {width: 20px;}
+
+#cart {width: 29px;}
+
+.icon img {
+   width: 100%;
+}
+
+#navDesktop {
+    display: none;
+}
+
+/*------------ Hero Section ------------*/ 
+.buyBeer {
+    margin-top: 25px;
+    margin-bottom: 80px;
+    color:#0087CD
+}
+
+.backBlue {
+    background-color: #0087CD;
+}
+
+.backBlack {
+    background-color: #000000;
+}
+
+.margin {
+    margin-top: 25px;
+    margin-bottom: 80px ;
+}
+
+.subtitle {display: none;}
+
+.shopNow {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin: 0;
+    border-radius: 20px;
+    border: 0pt;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#hero {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 100%;
+    height: 194px;
+    background-image: url('../images/low/Home_360X194.jpg');
+	background-repeat: no-repeat;
+    background-color: #e8e8e8;
+    background-position: center;
+}
+
+/*------------ Introduction Section ------------*/ 
+#intro {
+    margin: 25px 40px 25px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introM {
+    max-width: 100%;
+    padding: 25px;
+ }
+
+#introD {
+    display: none;
+ }
+
+ .aboutUs {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin: 0;
+    border-radius: 20px;
+    border: 0pt;
+    color: #ffffff;
+    padding: 10px;
+    background-color:#CA9E67
+ }
+
+ /*------------ Our Beers Section ------------*/ 
+#ourBeers {
+    padding: 18px;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    background-color: #0087CD;
+ }
+
+#beerNav {
+    padding: 18px;
+}
+
+#beerNav ul {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 428px;
+}
+
+#beerNav li {width: 60px;}
+
+#beersMobile {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 428px;
+}
+
+.photos { margin-bottom: 25px;}
+.title { margin-bottom: 10px;}
+#beersDesktop {display: none;}
+
+ /*------------ Special Edition Section ------------*/ 
+
+#promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#MspecialEdition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 365px;
+}
+
+#DspecialEdition {display: none;}
+
+.SpecialEdition {
+    padding: 25px;
+    background-color:#CA9E67
+}
+
+@media screen and (min-width: 428px) {
+
+/*------------ Nav Section ------------*/
+/*------------ Hero Section ------------*/
+/*------------ Introduction Section ------------*/
+/*------------ Our Beers Section ------------*/
+/*------------ Special Edition Section ------------*/    
+
+
+}
